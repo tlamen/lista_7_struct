@@ -1,0 +1,190 @@
+body, html {
+    height: 100% ;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(149, 200, 216, 1);
+}
+
+.nav-top {
+    float: none;
+    position: fixed;
+    display: block;
+    margin: 0;
+    width: 100vw;
+    height: 3vw;
+    background-color: rgb(0, 142, 204);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-top .nav-content {
+    display: inline-block;
+    float: none;
+}
+
+.nav-bottom {
+    background-color: rgb(114, 133, 165);
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    height: 3vw;
+    justify-content: space-between;
+    color: rgb(129, 216, 208);
+    margin-top: 3vw;
+}
+
+#logo {
+    height: 3vw;
+}
+
+.nav-content {
+    position: flex;
+    padding: 5px;
+    font-size: 1.5vw;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.nav-content a {
+    padding-left: 1vw;
+    text-decoration: none;
+    color: rgba(129, 216, 208, 1);
+}
+
+#center {
+    display: inline;
+}
+
+#left {
+    margin-left: 20px;
+}
+
+#right {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-content {
+        display: none;
+    }
+}
+
+footer {
+    background-color: rgba(79, 151, 163, 1);
+    box-sizing: border-box;
+    position: absolute;
+    z-index: visible;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    padding-left: 1vw;
+}
+
+.footer-content a {
+    color: rgba(176, 223, 229, 1);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.titulo {
+    margin-top: 40vh;
+    padding-top: 6vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    color: rgba(14, 77, 146, 1);
+}
+
+.imagem-1 {
+    margin-left: 4vw;
+    position: relative;
+    height: 30vw;
+    vertical-align: middle;
+}
+
+.imagem-1 img{
+    width: 25vw;
+    display: inline;
+    align-self: center;
+    float: left;
+    margin-right: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagem-1 img {
+        width: 100vw;
+        display: block;
+    }
+}
+
+.imagem-1 p {
+    color: rgba(14, 77, 146, 1);
+    font-size: 18px;
+    padding-top: 6vw;
+    margin-left: 3vw;
+    margin: 2vw;
+    vertical-align: middle;
+}
+
+.bridge {
+    position: relative;
+    font-size: 20px;
+    color: rgba(14, 77, 146, 1);
+    text-align: center;
+}
+
+.imagem-2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vw;
+    padding: 2vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+  
+#button-1 + #button-2 {
+    margin-left: 5vw;
+}
+
+#button-1 {
+    border-radius: 7px;
+    margin-top: 15px;
+    background-color: rgba(62, 225, 208, 1);
+    border: none;
+    color: rgba(88, 159, 211, 1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25vw;
+}
+
+#button-2 {
+    border-radius: 7px;
+    margin-top: 15px;
+    background-color: rgba(0, 128, 129, 1);
+    border: none;
+    color: rgba(176, 223, 229, 1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25vw;
+}
